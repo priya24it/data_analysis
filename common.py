@@ -11,6 +11,9 @@ import string
 wb = openpyxl.Workbook()
 ws = wb.active
 
+def new_():
+  pass
+
 def read_csv(test_data_path,filename):
   sourcedata= pd.read_csv(f'{test_data_path}/{filename}',low_memory=False,encoding='unicode_escape')
   return sourcedata
